@@ -24,6 +24,7 @@ rootProject.allprojects {
 apply plugin: 'com.android.library'
 
 android {
+    namespace 'com.chejdj.social_share'
     compileSdkVersion 33
 
     compileOptions {
